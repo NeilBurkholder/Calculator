@@ -102,11 +102,11 @@ android {
         checkReleaseBuilds = false
         abortOnError = false
     }
-    namespace = "com.simplemobiletools.calculator"
+    namespace = "com.ncautomation.calculator"
 }
 
 dependencies {
-    implementation(libs.simple.tools.commons)
+    implementation(project(":commons"))
     implementation(libs.auto.fit.text.view)
     implementation(libs.exp4j)
     implementation(libs.bundles.lifecycle)

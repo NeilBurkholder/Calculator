@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="package_name">com.simplemobiletools.calculator</string>
+    <string name="package_name">com.ncautomation.calculator</string>
 
     <string name="unit_name_with_symbol_format">%s (%s)</string>
     <string name="unit_length_kilometer_symbol">km</string>
