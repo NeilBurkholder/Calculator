@@ -8,4 +8,10 @@ class SplashActivity : BaseSplashActivity() {
         startActivity(Intent(this, com.ncautomation.calculator.activities.MainActivity::class.java))
         finish()
     }
+    class Orange : BaseSplashActivity() {
+        override fun initActivity() {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
+    }
 }
